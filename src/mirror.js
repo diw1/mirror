@@ -1,4 +1,4 @@
-import { Route, Redirect, Switch, Prompt, withRouter } from 'react-router'
+import { Route, Redirect, Switch, Prompt, withRouter, useHistory } from 'react-router'
 import { Link, NavLink } from 'react-router-dom'
 import { connect } from 'react-redux'
 import model from './model'
@@ -30,5 +30,6 @@ export {
   Switch,
   Redirect,
   Prompt,
-  withRouter
+  withRouter,
+  useHistory
 }
